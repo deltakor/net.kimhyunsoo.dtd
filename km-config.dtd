@@ -1,17 +1,16 @@
-<!DOCTYPE km-config [
-	<!ELEMENT km-config (DBConfig,Models)>
-	<!ELEMENT DBConfig (#PCDATA)>
-	<!ATTLIST DBConfig
-		DBType CDATA #REQUIRED
-		ConnectionString CDATA #REQUIRED
-		Username CDATA #REQUIRED
-		Password CDATA #REQUIRED>
-	<!ELEMENT Models (Model)*>
-	<!ELEMENT Model (Field)*>
+<!ELEMENT km-config (DBConfig,Models)>
+<!ELEMENT DBConfig (#PCDATA)>
+<!ATTLIST DBConfig
+	DBType CDATA #REQUIRED
+	ConnectionString CDATA #REQUIRED
+	Username CDATA #REQUIRED
+	Password CDATA #REQUIRED>
+<!ELEMENT Models (Model)*>
+<!ELEMENT Model (Field)*>
 <!ATTLIST Model
-		Name CDATA #REQUIRED
-		Table CDATA #REQUIRED
-		Readonly CDATA #IMPLIED>
+	Name CDATA #REQUIRED
+	Table CDATA #REQUIRED
+	Readonly CDATA #IMPLIED>
 <!ELEMENT Field (#PCDATA)>
 <!ATTLIST Field
 		Column CDATA #REQUIRED
@@ -19,6 +18,5 @@
 		Format CDATA #REQUIRED
 		Length CDATA #IMPLIED
 		PrimaryKey CDATA #IMPLIED
-		Unique CDATA #IMPLIED>
-		AutoValue CDATA #IMPLIED
-]>
+		Unique CDATA #IMPLIED
+		AutoValue CDATA #IMPLIED>

@@ -1,0 +1,7 @@
+<!ELEMENT kwf-config (basePackage,welcome,sessionKey,hidePattern)>
+<!ELEMENT basePackage (#PCDATA)>
+<!ELEMENT welcome (#PCDATA)>
+<!ELEMENT sessionKey (#PCDATA)>
+<!ELEMENT hidePattern (extension,webRoot)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT webRoot (#PCDATA)>

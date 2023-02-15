@@ -19,4 +19,5 @@
 		Length CDATA #IMPLIED
 		PrimaryKey CDATA #IMPLIED
 		Unique CDATA #IMPLIED
-		AutoValue CDATA #IMPLIED>
+		AutoValue CDATA #IMPLIED
+		UseGuid CDATA #IMPLIED>

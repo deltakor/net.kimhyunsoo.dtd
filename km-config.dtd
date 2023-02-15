@@ -10,7 +10,8 @@
 <!ATTLIST Model
 	Name CDATA #REQUIRED
 	Table CDATA #REQUIRED
-	Readonly CDATA #IMPLIED>
+	Readonly CDATA #IMPLIED
+  UseDynamicTable CDATA #IMPLIED>
 <!ELEMENT Field (#PCDATA)>
 <!ATTLIST Field
 		Column CDATA #REQUIRED

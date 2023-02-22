@@ -11,7 +11,8 @@
 	Name CDATA #REQUIRED
 	Table CDATA #REQUIRED
 	Readonly CDATA #IMPLIED
-  UseDynamicTable CDATA #IMPLIED>
+    UseDynamicTable CDATA #IMPLIED
+	Period CDATA #IMPLIED>
 <!ELEMENT Field (#PCDATA)>
 <!ATTLIST Field
 		Column CDATA #REQUIRED

@@ -1,7 +1,7 @@
 <!ELEMENT km-config (DBConfig)*>
 <!ELEMENT DBConfig (Option)*>
 <!ATTLIST DBConfig
-  name CDATA #REQUIRED
+	Name CDATA #REQUIRED
 	DBType CDATA #REQUIRED
 	DBHost CDATA #REQUIRED
 	DBPort CDATA #REQUIRED

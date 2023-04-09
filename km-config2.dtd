@@ -1,3 +1,5 @@
+<!DOCTYPE km-config2
+[
 <!ELEMENT km-config2 (DBConfig)*>
 <!ELEMENT DBConfig (Option)*>
 <!ATTLIST DBConfig
@@ -11,4 +13,4 @@
 <!ATTLIST Option
 	Key CDATA #REQUIRED
 	Value CDATA #REQUIRED>
-	
+]

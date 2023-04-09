@@ -1,5 +1,4 @@
-<!ELEMENT km-config2 (DBConfig)*>
-<!ELEMENT DBConfig (Option)*>
+<!ELEMENT km-config2 (DBConfig)+>
 <!ATTLIST DBConfig
 	Name CDATA #REQUIRED
 	DBType CDATA #REQUIRED
@@ -8,6 +7,7 @@
 	DBName CDATA #REQUIRED
 	Username CDATA #REQUIRED
 	Password CDATA #REQUIRED>
+<!ELEMENT DBConfig (Option)*>
 <!ATTLIST Option
 	Key CDATA #REQUIRED
 	Value CDATA #REQUIRED>

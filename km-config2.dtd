@@ -1,4 +1,4 @@
-<!ELEMENT km-config (DBConfig)*>
+<!ELEMENT km-config2 (DBConfig)*>
 <!ELEMENT DBConfig (Option)*>
 <!ATTLIST DBConfig
 	Name CDATA #REQUIRED

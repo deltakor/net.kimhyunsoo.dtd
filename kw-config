@@ -1,6 +1,0 @@
-<!ELEMENT kw-config (basePackage,welcome,sessionKeyForLonOn,sessionKeyForGrade,logOffPath)>
-<!ELEMENT basePackage (#PCDATA)>
-<!ELEMENT welcome (#PCDATA)>
-<!ELEMENT sessionKeyForLonOn (#PCDATA)>
-<!ELEMENT sessionKeyForGrade (#PCDATA)>
-<!ELEMENT logOffPath (#PCDATA)>

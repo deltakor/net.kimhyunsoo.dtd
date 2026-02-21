@@ -1,0 +1,7 @@
+<!ELEMENT kw-config (basePackage,welcome,sessionKeyForLonOn,sessionKeyForGrant,logOffPath,fileUploadTempDirPath)>
+<!ELEMENT basePackage (#PCDATA)>
+<!ELEMENT welcome (#PCDATA)>
+<!ELEMENT sessionKeyForLonOn (#PCDATA)>
+<!ELEMENT sessionKeyForGrant (#PCDATA)>
+<!ELEMENT logOffPath (#PCDATA)>
+<!ELEMENT fileUploadTempDirPath (#PCDATA)>

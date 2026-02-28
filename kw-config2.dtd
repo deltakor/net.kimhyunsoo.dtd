@@ -7,6 +7,6 @@
 <!ATTLIST fileUpload
     tempPath CDATA #REQUIRED
     maxFileSize CDATA #IMPLIED
-    maxRequestSize DATA  #IMPLIED
-    fileSizeThreshold DATA  #IMPLIED
+    maxRequestSize CDATA #IMPLIED
+    fileSizeThreshold CDATA #IMPLIED
 >

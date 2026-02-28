@@ -1,7 +1,12 @@
-<!ELEMENT kw-config (basePackage,welcome,sessionKeyForLonOn,sessionKeyForGrant,logOffPath,fileUploadTempDirPath)>
+<!ELEMENT kw-config (basePackage,welcome,sessionKeyForLonOn,sessionKeyForGrant,logOffPath,fileUpload)>
 <!ELEMENT basePackage (#PCDATA)>
 <!ELEMENT welcome (#PCDATA)>
 <!ELEMENT sessionKeyForLonOn (#PCDATA)>
 <!ELEMENT sessionKeyForGrant (#PCDATA)>
 <!ELEMENT logOffPath (#PCDATA)>
-<!ELEMENT fileUploadTempDirPath (#PCDATA)>
+<!ATTLIST fileUpload
+    tempPath CDATA #REQUIRED
+    maxFileSize CDATA #IMPLIED
+    maxRequestSize DATA  #IMPLIED
+    fileSizeThreshold DATA  #IMPLIED
+>

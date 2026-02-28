@@ -4,7 +4,7 @@
 <!ELEMENT sessionKeyForLonOn (#PCDATA)>
 <!ELEMENT sessionKeyForGrant (#PCDATA)>
 <!ELEMENT logOffPath (#PCDATA)>
-<!ELEMENT fileUpload
+<!ATTLIST fileUpload
     tempPath CDATA #REQUIRED
     maxFileSize CDATA #IMPLIED
     maxRequestSize DATA  #IMPLIED
